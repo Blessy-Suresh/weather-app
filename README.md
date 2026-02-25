@@ -19,4 +19,5 @@ It fetches real-time weather data using WeatherAPI.
 - WeatherAPI
 
 
-<img width="1907" height="994" alt="image" src="https://github.com/user-attachments/assets/9b25effd-2539-42d7-9a2b-f79bbd9c2633" />
+<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/aaadd8f2-c473-4ed0-9676-4f8a5dc94da9" />
+
