@@ -22,7 +22,7 @@ export default function App() {
       return;
     }
 
-    // ✅ FIX: Always search in India if no country given
+   
     if (!query.includes(",")) {
       query = `${query},India`;
     }
@@ -39,7 +39,7 @@ export default function App() {
       const res = await fetch(url);
       const data = await res.json();
 
-      // ✅ API Error handling
+     
       if (!res.ok || data?.error) {
         setError(data?.error?.message || "City not found.");
         return;
@@ -61,7 +61,7 @@ export default function App() {
 
   return (
     <div className="page">
-      <h1 className="title">Weather UI (API)</h1>
+      <h1 className="title">Weather UI </h1>
 
       <div className="searchRow">
         <input
